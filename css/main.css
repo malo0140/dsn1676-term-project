@@ -32,14 +32,16 @@ html {
     position: absolute;
     left: 100px;
     width: 100px;
-    animation: 3s scale linear infinite;
+    animation: 3s scale linear forwards infinite;
 }
 
 @keyframes scale {
  
     0% {
         transform: scale(1:1);
+    }
         
     100% {
         transform: scale(1:2);
+    }
 }

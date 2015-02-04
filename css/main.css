@@ -38,9 +38,10 @@ html {
 
 .alice {
     position: absolute;
-    left: 50px;
+    left: 140px;
     top: 140px;
     width: 100px;
+    height: auto;
     animation: 3s scale ease-in-out forwards infinite;
     transition: all scale 1000ms linear;
 }
@@ -76,7 +77,20 @@ a:hover {
     top: 50px;
     padding-bottom: 50px;
     float: right;
+    animation: 15s transparent 1000ms ease;
+    transition: all scale 1000ms linear infinite;
 
+}
+
+@keyframes transparent {
+    0% {
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+    
 }
 
 .img-flex {

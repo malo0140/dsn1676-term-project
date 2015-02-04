@@ -48,16 +48,15 @@ html {
 
 button {
     display: inline-block;
-    border-radius: 50%;
     text-decoration: none;
      background-color: #00bff3;
-    line-height: 10em;
     width: 6em;
     text-align: center;
     margin: 1.5em;
 }
 
-a:hover {
-    background-color: white;
+.button:hover {
+    background-color: #19a1cd;
+    border-radius: 50%;
     transition: all 7s ease 0s;
 }

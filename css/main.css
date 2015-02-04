@@ -30,6 +30,16 @@ html {
 
 .alice {
     position: absolute;
+    left: 100px;
     width: 100px;
-    animation: 3s linear infinite;
+    animation: 3s scale linear infinite;
+}
+
+@keyframes scale {
+ 
+    0% {
+        transform: scale(1:1);
+        
+    100% {
+        transform: scale(1:2);
 }

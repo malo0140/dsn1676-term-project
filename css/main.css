@@ -32,14 +32,25 @@ html {
     line-height: 70%;
 }
 
-.alice {
+/*.alice {
     position: relative;
     display: block;
     width: 100px;
     height: auto;
+    float: none;
     animation: 3s scale ease-in-out forwards infinite;
     transition: all scale 1000ms linear;
     left: 450px;
+} */
+
+.alice {
+    position: relative;
+    display: block;
+    max-width: 150px;
+    max-height: 150px;
+    margin: auto;
+   animation: 3s scale ease-in-out forwards infinite;
+
 }
 
 @keyframes scale {
@@ -69,26 +80,22 @@ a:hover {
     text-decoration: none
 }
 
-.smile {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 45vh;
-    margin: auto;
-    background: transparent url("../img/catsmile.svg)") center;
-    padding-bottom: 50px;
-    float: right;
-    animation: transparent 10s ease-in-out infinite alternate;
+.arrow {
 
+    animation: slide 3s linear alternate infinite;
 }
 
-@keyframes transparent {
+@keyframes slide {
     0% {
-        opacity: 0;
+        transform: translateY(0px)
+    }
+    
+     50% {
+        transform: translateY(5px)
     }
     
     100%{
-        opacity: 1;
+        transform: translateY(10px)
     }
     
 }

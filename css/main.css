@@ -38,8 +38,16 @@ html {
     max-width: 150px;
     max-height: 150px;
     margin: auto;
-   animation: 3s scale ease-in-out forwards infinite;
+   -webkit-animation: 3s scale ease-in-out forwards infinite;
 
+}
+
+@-webkit-keyframes scale {
+   from { transform: scale(1, 1);
+   }
+    
+  to { transform: scale(1.2, 1.3); 
+  }
 }
 
 @keyframes scale {
@@ -94,9 +102,24 @@ a:hover {
     max-width: 300px;
     max-height: 300px;
     margin: auto;
-    top: -100px;
-   animation: 20s transparency ease-in-out forwards infinite;
+    top: -110px;
+   -webkit-animation: 20s transparency ease-in-out forwards infinite;
 
+}
+
+@-webkit-keyframes transparency {
+   
+    0% {
+        opacity: 0; 
+    }
+    
+    50% {
+        opacity: .3;
+    }
+    
+  100% {
+      opacity: 0;
+    }
 }
 
 @keyframes transparency {

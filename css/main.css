@@ -49,11 +49,16 @@ html {
 .scroll {
     display: inline-block;
     border-radius: 50%;
-    color: #00bff3;
-    height: 50px;
-    width: 50px;
+    text-decoration: none;
+    color: #fff;
+     background-color: lime;
+    line-height: 6em;
+    width: 6em;
+    text-align: center;
+    margin: 1.5em;
 }
 
 a:hover {
-    
+    background-color: white;
+    transition: all 7s linear;
 }

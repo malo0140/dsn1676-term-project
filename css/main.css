@@ -24,3 +24,10 @@ html {
 .title {
     color: 00bff3; 
 }
+
+.alice {
+    position: absolute;
+    left: ;
+    width: ;
+    animation: 3s linear infinite;
+}

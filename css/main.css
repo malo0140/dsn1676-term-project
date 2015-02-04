@@ -38,25 +38,10 @@ html {
 @keyframes scale {
  
     0% {
-        transform: scale(1:1);
+        transform: scale();
     }
         
     100% {
-        transform: scale(1:2);
+        transform: scale();
     }
-}
-
-button {
-    display: inline-block;
-    text-decoration: none;
-     background-color: #00bff3;
-    width: 6em;
-    text-align: center;
-    margin: 1.5em;
-}
-
-.button:hover {
-    background-color: #19a1cd;
-    border-radius: 50%;
-    transition: all 7s ease 0s;
 }

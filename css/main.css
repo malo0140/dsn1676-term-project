@@ -32,7 +32,7 @@ html {
     position: absolute;
     left: 100px;
     width: 100px;
-    animation: 3s scale linear forwards infinite;
+    animation: 3s scale ease-in-out forwards infinite;
 }
 
 @keyframes scale {
@@ -44,4 +44,16 @@ html {
     100% {
         transform: scale(1:2);
     }
+}
+
+.scroll {
+    display: inline-block;
+    border-radius: 50%;
+    color: #00bff3;
+    height: 50px;
+    width: 50px;
+}
+
+a:hover {
+    
 }

@@ -39,7 +39,7 @@ html {
     max-height: 150px;
     margin: auto;
    -webkit-animation: 3s scale ease-in-out forwards infinite;
-
+    animation: 3s scale ease-in-out forwards infinite;
 }
 
 @-webkit-keyframes scale {
@@ -69,6 +69,7 @@ html {
     position: relative;
     top: -120px;
     margin: auto;
+    -webkit-transition: all .50s linear;
     transition: all .50s linear;
 }
 
@@ -104,6 +105,7 @@ a:hover {
     margin: auto;
     top: -110px;
    -webkit-animation: 20s transparency ease-in-out forwards infinite;
+    animation: 20s transparency ease-in-out forwards infinite;
 
 }
 

@@ -106,7 +106,6 @@ a:hover {
     top: -110px;
    -webkit-animation: 20s transparency ease-in-out forwards infinite;
     animation: 20s transparency ease-in-out forwards infinite;
-
 }
 
 @-webkit-keyframes transparency {

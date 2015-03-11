@@ -22,6 +22,8 @@ html {
     background-color: black;
     height: 50vh;
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .title {
@@ -76,6 +78,15 @@ html {
 a:hover {
     background-color: #ffda72;
     cursor: pointer;
+}
+
+.toggle {
+    width: 2em;
+    position: relative;
+    left: calc(95% - 1em);
+    margin: 0;
+    padding: 0;
+
 }
 
 

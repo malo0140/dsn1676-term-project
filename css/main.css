@@ -20,10 +20,23 @@ html {
 .bg {
     background: transparent url("../img/catsmile.svg)") center; 
     background-color: black;
-    height: 50vh;
+    height: 62vh;
     width: 100%;
     padding: 0;
     margin: 0;
+}
+
+.blue {
+        background-color: #00bff3;
+}
+
+.toggle {
+    width: 2em;
+    position: relative;
+    left: calc(95% - 2.5em);
+    margin: .5em;
+    padding: 0;
+
 }
 
 .title {

@@ -80,16 +80,6 @@ a:hover {
     cursor: pointer;
 }
 
-.toggle {
-    width: 2em;
-    position: relative;
-    left: calc(95% - 1em);
-    margin: 0;
-    padding: 0;
-
-}
-
-
 .sub {
     color: white;
     text-align: center;

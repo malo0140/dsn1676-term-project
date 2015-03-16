@@ -30,13 +30,30 @@ html {
         background-color: #00bff3;
 }
 
-.toggle {
-    width: 2em;
+.box {
+  width: 100%;
+   transition: all 150ms linear;
+}
+
+.btn-show-hide {
+    background: transparent url("../img/toggle.svg") center;
+    background-repeat: no-repeat;
+    background-color:#00bff3; 
+    width: 3em;
+    height: 4em;
     position: relative;
     left: calc(95% - 2.5em);
-    margin: .5em;
-    padding: 0;
+    margin: 2em;
+    padding:1em;
+    transition: all 100ms linear;
+    -webkit-transition: all 100ms linear;
+    opacity: 1;
+    overflow: hidden;
+    
+}
 
+.js-toggle {
+    opacity: 1;
 }
 
 .title {
@@ -97,6 +114,7 @@ a:hover {
     color: white;
     text-align: center;
     font-size: 15px;
+    -webkit-transition: all .50s linear;
     transition: all .50s linear;
 }
 

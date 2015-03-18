@@ -20,19 +20,18 @@ html {
 .bg {
     background: transparent url("../img/catsmile.svg)") center; 
     background-color: black;
-    height: 62vh;
+    height:65vh;
     width: 100%;
     padding: 0;
     margin: 0;
 }
 
 .blue {
-        background-color: #00bff3;
+    background-color: #00bff3;
 }
 
 .box {
-  width: 100%;
-   transition: all 150ms linear;
+    
 }
 
 .btn-show-hide {
@@ -42,11 +41,11 @@ html {
     width: 3em;
     height: 4em;
     position: relative;
-    left: calc(95% - 2.5em);
+    left: calc(95% - 5em);
     margin: 2em;
     padding:1em;
+     -webkit-transition: all 100ms linear;
     transition: all 100ms linear;
-    -webkit-transition: all 100ms linear;
     opacity: 1;
     overflow: hidden;
     

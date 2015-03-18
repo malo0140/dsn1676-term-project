@@ -27,7 +27,14 @@ html {
 }
 
 .blue {
-        background-color: #00bff3;
+    background-color: #00bff3;
+    height: 140px;
+}
+
+h2 {
+    padding: 0;
+    font-size: 1.0000rem;
+  line-height: 1.5000;
 }
 
 .collapse {
@@ -44,6 +51,7 @@ html {
     transition: all 100ms linear;
     opacity: 1;
     overflow: hidden;
+    border: none;
     
 }
 

@@ -17,6 +17,11 @@ html {
     box-sizing: inherit;
 }
 
+.blackbg {
+    background-color: black;
+    width: 100%;
+}
+
 .bg {
     background: transparent url("../img/catsmile.svg)") center; 
     background-color: black;
@@ -144,6 +149,15 @@ a:hover {
     display: block;
     width: 100%;
     height: 50vh;
+}
+
+.buckets {
+  width: 33.3333%;
+}
+
+.card {
+ 
+   
 }
 
 .catsmile {

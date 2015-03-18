@@ -30,21 +30,30 @@ html {
         background-color: #00bff3;
 }
 
-.box {
+.panel {
   width: 100%;
-   transition: all 150ms linear;
+  top: 50%;
+
+  background-color: #00bff3 ;
+  transform: translateY(-50%);
+
+  color: darkgoldenrod;
+  text-align: center;
+  transition: all 200ms linear;
+  max-height: 0;
+  overflow: hidden;
 }
 
-.btn-show-hide {
+.collapse {
     background: transparent url("../img/toggle.svg") center;
     background-repeat: no-repeat;
     background-color:#00bff3; 
     width: 3em;
     height: 4em;
     position: relative;
-    left: calc(95% - 2.5em);
+    left: calc(95% - 5em);
     margin: 2em;
-    padding:1em;
+    padding: 1em;
      -webkit-transition: all 100ms linear;
     transition: all 100ms linear;
     opacity: 1;
@@ -53,7 +62,7 @@ html {
 }
 
 .js-toggle {
-    opacity: 1;
+   max-height: 10em;
 }
 
 .title {

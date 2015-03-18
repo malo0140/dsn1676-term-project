@@ -53,12 +53,16 @@ html {
   background-color: white;
   color: #ffda72;
   text-align: center;
+  transform: translateY(-50%)
     
   transition: all 200ms linear;
   max-height: 0;
   overflow: hidden;
 }
 
+.js-panel {
+  max-height: 40em;   
+}
 
 .title {
     color: #00bff3; 

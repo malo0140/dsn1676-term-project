@@ -1,6 +1,6 @@
-var $toggle = $('.collapse');
+var $btnCollapse = $('.collapse');
 var $panel = $('.panel');
 
-$toggle.on('click', function () {
-    $panel.toggleClass('.js-toggle');
+$btnCollapse.on('click', function () {
+    $panel.toggleClass('.js-panel');
 });

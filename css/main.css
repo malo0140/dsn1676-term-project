@@ -51,7 +51,7 @@ html {
     width: 3em;
     height: 4em;
     position: relative;
-    left: calc(95% - 5em);
+    left: calc(95% - 50px);
     margin: 2em;
     padding: 1em;
      -webkit-transition: all 100ms linear;

@@ -27,11 +27,12 @@ html {
 }
 
 .blue {
-    background-color: #00bff3;
+        background-color: #00bff3;
 }
 
 .box {
-    
+  width: 100%;
+   transition: all 150ms linear;
 }
 
 .btn-show-hide {
@@ -41,7 +42,7 @@ html {
     width: 3em;
     height: 4em;
     position: relative;
-    left: calc(95% - 5em);
+    left: calc(95% - 2.5em);
     margin: 2em;
     padding:1em;
      -webkit-transition: all 100ms linear;

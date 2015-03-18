@@ -1,6 +1,6 @@
-var $showHide = $('.btn-show-hide');
+var $toggle = $('.togglekey');
 var $box = $('.box');
 
-$showHide.on('click', function () {
+$toggle.on('click', function () {
     $box.toggleClass('.js-toggle');
 });

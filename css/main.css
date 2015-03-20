@@ -35,9 +35,11 @@ html {
 }
 
 h2 {
-    margin: 0;
+    width: 300px;
+    margin: 1em;
     font-size: 1.0000rem;
   line-height: 1.5000;
+   
 }
 
 .collapse {
@@ -190,8 +192,80 @@ a:hover {
     }
 }
 
+.fade {
+    height: 50px;
+    width: 300px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
 .card {
- background: transparent url("../img/card.svg") center;
- height: 33%;
- width: 33%;
+ background: url(../img/card.svg) center;
+ position: relative;
+ height: 300px;
+ width: 300px;
+ background-color: blue;
+}
+
+.quote {
+  position: relative; 
+  transition: all 150ms linear;
+  opacity: 0;
+}
+
+.js-fade {
+ opacity: 1;    
+}
+
+.rabbit {
+   background: url(../img/white-rabbit.svg) center;  
+    position: relative;
+ height: 300px;
+ width: 300px;
+ background-color: #3958A7;
+}
+
+.fadein {
+  height: 50px;
+    width: 300px;
+    background-color: #3958A7;
+    border: none;
+    cursor: pointer;  
+}
+
+.late {
+  position: relative; 
+  transition: all 150ms linear;
+  opacity: 0; 
+}
+
+.js-fadein {
+    opacity: 1;
+}
+
+.door {
+      background: url(../img/doorknob.svg) center;  
+    position: relative;
+ height: 300px;
+ width: 300px;
+ background-color: #3958A7; 
+}
+
+.fadetext {
+    height: 50px;
+    width: 300px;
+    background-color: #D79608;
+    border: none;
+    cursor: pointer; 
+}
+
+.knob {
+    position: relative; 
+  transition: all 150ms linear;
+  opacity: 0;  
+}
+
+.js-fadetext {
+    opacity: 1;
 }

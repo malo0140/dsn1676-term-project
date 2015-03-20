@@ -149,67 +149,6 @@ a:hover {
     height: 50vh;
 }
 
-.buckets {
-  width: 33.3333%;
-}
-
-section {
-  padding: 4em 1em;
-  position: relative;
-
-  border-bottom: 1px solid #ccc;
-}
-
-.teapot {
-  background-color: black;
-  display: block;
-    width: 100%;
-    max-height: 10em;
-}
-
-.clock {
-     background-color: black;
-    display: block;
-    width: 100%;
-    max-height: 10em;
-}
-
-.attack {
-  align-content: center;
-  border-radius: 50%;
-  height: 5em;
-  width: 5em;
-  align-content: center;
-  border: none;
-}
-
-.card {
-    
-    background: transparent url("../img/thecarguy.svg") center;
-     background-color: black;
-    display: block;
-    animation: card-bounce 1s linear; 
-
-}
-
-@keyframes card-bounce {
-  
-    0% {
-       top:calc(50% - 70px) 
-       right: 2em; 
-    }
-    
-    50% {
-       top:calc(50% - 40px);
-       right: 6em; 
-    }
-    
-    100% {
-       top:calc(50% - 50px); 
-       right: 9em; 
-    }
-}
-
 .catsmile {
     position: relative;
     display: block;

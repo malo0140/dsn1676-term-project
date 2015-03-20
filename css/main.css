@@ -19,11 +19,9 @@ html {
 
 .blackbg {
     background-color: black;
-    width: 100%;
 }
 
 .bg {
-    background: transparent url("../img/catsmile.svg)") center; 
     background-color: black;
     height: 360px;
     width: 100%;
@@ -39,7 +37,7 @@ html {
 h2 {
     margin: 0;
     font-size: 1.0000rem;
-    line-height: 1.5000;
+  line-height: 1.5000;
 }
 
 .collapse {
@@ -61,27 +59,27 @@ h2 {
 }
 
 .panel {
-   width: 100%;
+  width: 100%;
 
-   background-color: #00bff3;
-   color: #ffda72;
-   text-align: center;
-   transform: translateY(0%);
+  background-color: #00bff3;
+  color: #ffda72;
+  text-align: center;
+  transform: translateY(0%);
     
-   transition: all 300ms linear;
-   display: none;
-   overflow: hidden;
+  transition: all 300ms linear;
+  display: none;
+  overflow: hidden;
 }
 
 .js-panel {
-   max-height: 10em;
-   display: block;
+  max-height: 10em;
+  display: block;
 }
 
 .title {
     color: #00bff3; 
     margin-top: 10px;
-    text-align: center;
+   text-align: center;
     font-size: 40px;
     line-height: 70%;
 }
@@ -97,23 +95,19 @@ h2 {
 }
 
 @-webkit-keyframes scale {
-   from { 
-       -webkit-transform: scale(1, 1);
+   from { -webkit-transform: scale(1, 1);
    }
     
-  to { 
-      -webkit-transform: scale(1.2, 1.3); 
+  to { -webkit-transform: scale(1.2, 1.3); 
   }
 }
 
 @keyframes scale {
-   from { 
-       transform: scale(1, 1);
+   from { transform: scale(1, 1);
    }
     
-   to { 
-       transform: scale(1.2, 1.3); 
-   }
+  to { transform: scale(1.2, 1.3); 
+  }
 }
 
 .button {
@@ -156,36 +150,44 @@ a:hover {
 }
 
 .buckets {
-    width: 33.3333%;
+  width: 33.3333%;
+}
+
+section {
+  padding: 4em 1em;
+  position: relative;
+
+  border-bottom: 1px solid #ccc;
 }
 
 .teapot {
-    background-color: black;
-    display: block;
+  background-color: black;
+  display: block;
     width: 100%;
     max-height: 10em;
 }
 
 .clock {
-    background-color: black;
+     background-color: black;
     display: block;
     width: 100%;
     max-height: 10em;
 }
 
 .attack {
-    align-content: center;
-    border-radius: 50%;
-    height: 5em;
-    width: 5em;
-    text-align: center;
-    border: none;
+  align-content: center;
+  border-radius: 50%;
+  height: 5em;
+  width: 5em;
+  align-content: center;
+  border: none;
 }
 
 .card {
-    background-color: black;
+    
+    background: transparent url("../img/thecarguy.svg") center;
+     background-color: black;
     display: block;
-    max-height: 10em;
     animation: card-bounce 1s linear; 
 
 }
@@ -193,17 +195,17 @@ a:hover {
 @keyframes card-bounce {
   
     0% {
-        
+       top:calc(50% - 70px) 
        right: 2em; 
     }
     
     50% {
-        
+       top:calc(50% - 40px);
        right: 6em; 
     }
     
     100% {
-        
+       top:calc(50% - 50px); 
        right: 9em; 
     }
 }
@@ -229,8 +231,8 @@ a:hover {
         opacity: .3;
     }
     
-    100% {
-        opacity: 0;
+  100% {
+      opacity: 0;
     }
 }
 
@@ -244,7 +246,7 @@ a:hover {
         opacity: .3;
     }
     
-    100% {
+  100% {
       opacity: 0;
     }
 }

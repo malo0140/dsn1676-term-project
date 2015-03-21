@@ -19,8 +19,8 @@ html {
     box-sizing: inherit;
 }
 
-section {
-
+center {
+    align-content: space-between;
 }
 
 .blackbg {
@@ -45,6 +45,7 @@ h2 {
         margin: 1em;
         font-size: 1.0000rem;
       line-height: 1.5000;
+    font-family: Aviner light, sans-serif;
    
 }
 

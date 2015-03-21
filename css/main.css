@@ -45,7 +45,8 @@ h2 {
         margin: 1em;
         font-size: 1.0000rem;
       line-height: 1.5000;
-    font-family: Aviner light, sans-serif;
+    font-family: Futura, sans-serif;
+    font-weight: 100;
    
 }
 
@@ -61,6 +62,7 @@ h2 {
         margin: 2em;
         padding: 1em;
         transition: all 100ms linear;
+        -webkit-transition: all 100ms linear;
         opacity: 1;
         overflow: hidden;
         border: none;
@@ -76,6 +78,7 @@ h2 {
       transform: translateY(0%);
 
       transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
       display: none;
       overflow: hidden;
 }
@@ -251,6 +254,7 @@ a:hover {
 .late {
       position: relative; 
       transition: all 150ms linear;
+    -webkit-transition: all 150ms linear;
       opacity: 0; 
 }
 
@@ -279,6 +283,7 @@ a:hover {
 .knob {
     position: relative; 
     transition: all 150ms linear;
+    -webkit-transition: all 150ms linear;
     opacity: 0;
     
 }
@@ -307,9 +312,14 @@ a:hover {
 .cat {
      position: relative; 
     transition: all 150ms linear;
+    -webkit-transition: all 150ms linear;
     opacity: 0;
 }
 
 .js-showhide {
     opacity: 1;
+}
+
+button {
+   color: white;   
 }

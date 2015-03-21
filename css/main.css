@@ -6,6 +6,8 @@
 
 html {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -18,9 +20,7 @@ html {
 }
 
 section {
-    display: block;
-    flex-flow: row wrap;
-    align-content: space-around;
+
 }
 
 .blackbg {
@@ -211,9 +211,11 @@ a:hover {
 .card {
      background: url(../img/card.svg) center;
      position: relative;
+     display: block;
      height: 300px;
      width: 300px;
      background-color: blue;
+
 }
 
 .quote {
@@ -230,9 +232,11 @@ a:hover {
 .rabbit {
      background: url(../img/white-rabbit.svg) center;  
      position: relative;
+     display: block;
      height: 300px;
      width: 300px;
      background-color: #3958A7;
+
 }
 
 .fadein {
@@ -256,9 +260,11 @@ a:hover {
 .door {
       background: url(../img/doorknob.svg) center;  
       position: relative;
+     display: block;
      height: 300px;
      width: 300px;
      background-color: #3958A7; 
+
 }
 
 .fadetext {
@@ -272,7 +278,8 @@ a:hover {
 .knob {
     position: relative; 
     transition: all 150ms linear;
-    opacity: 0;  
+    opacity: 0;
+    
 }
 
 .js-fadetext {

@@ -286,3 +286,30 @@ a:hover {
 .js-fadetext {
     opacity: 1;
 }
+
+.caterpiller {
+    background: url(../img/caterpiller.svg) center;
+    position: relative;
+     display: block;
+     height: 300px;
+     width: 300px;
+     background-color: #3958A7; 
+}
+
+.showhide {
+    height: 50px;
+    width: 300px;
+    background-color: #E55E82;
+    border: none;
+    cursor: pointer;
+}
+
+.cat {
+     position: relative; 
+    transition: all 150ms linear;
+    opacity: 0;
+}
+
+.js-showhide {
+    opacity: 1;
+}

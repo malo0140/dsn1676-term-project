@@ -10,6 +10,9 @@ var $late = $('.late');
 var $btnFadeText = $('.fadetext');
 var $knob = $('.knob');
 
+var $btnShowHide = $('.showhide');
+var $cat = $('.cat');
+
 $btnCollapse.on('click', function () {
     $panel.toggleClass('js-panel');
 });
@@ -24,5 +27,10 @@ $BtnFadeIn.on('click', function () {
 
 $btnFadeText.on('click', function () {
     $knob.toggleClass('js-fadetext');
+    
+});
+
+$btnShowHide.on('click', function () {
+    $cat.toggleClass('js-showhide');
     
 });

@@ -13,6 +13,7 @@ var $knob = $('.knob');
 var $btnShowHide = $('.showhide');
 var $cat = $('.cat');
 
+var $nav = $('.nav');
 
 $btnCollapse.on('click', function () {
     $panel.toggleClass('js-panel');

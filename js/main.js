@@ -13,6 +13,7 @@ var $knob = $('.knob');
 var $btnShowHide = $('.showhide');
 var $cat = $('.cat');
 
+
 $btnCollapse.on('click', function () {
     $panel.toggleClass('js-panel');
 });
@@ -34,3 +35,5 @@ $btnShowHide.on('click', function () {
     $cat.toggleClass('js-showhide');
     
 });
+
+$('.nav').localScroll();

@@ -19,6 +19,10 @@ html {
     box-sizing: inherit;
 }
 
+href a {
+    cursor: pointer;
+}
+
 body {
  margin: 0;
 

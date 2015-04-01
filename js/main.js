@@ -38,3 +38,7 @@ $btnShowHide.on('click', function () {
 });
 
 $('.nav').localScroll();
+
+$('.footer').localScroll();
+
+

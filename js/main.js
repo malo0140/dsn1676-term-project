@@ -41,4 +41,6 @@ $('.nav').localScroll();
 
 $('.footer').localScroll();
 
+$('.top').localScroll();
+
 

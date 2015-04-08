@@ -39,6 +39,7 @@ html {
     padding: 1em;
  font-family: Futura, sans-serif;
     font-weight: 100;
+    color: white;
 }
 
 body {
@@ -70,6 +71,7 @@ h2 {
       line-height: 1.5000;
     font-family: Futura, sans-serif;
     font-weight: 100;
+    color: white;
    
 }
 
@@ -318,4 +320,17 @@ h2 {
 button {
    color: white;   
 }
+
+.background {
+    background-color: black;
+}
+
+#eyes {
+     position: relative;
+        display: block;
+        max-width: 150px;
+        max-height: 150px;
+        margin: 2em;
+}
+
 

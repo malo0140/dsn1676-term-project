@@ -326,11 +326,21 @@ button {
 }
 
 #eyes {
-     position: relative;
-        display: block;
-        max-width: 150px;
-        max-height: 150px;
-        margin: 2em;
+   align-content: center;  
 }
 
+#box {   
+ animation: blink 500ms linear alternate infinite;
+    
+}
 
+@keyframes blink {
+    0% {
+       transform: translateY(-80px);
+    }
+    
+    100% {
+        transform: translateY(20px);
+    }
+    
+}

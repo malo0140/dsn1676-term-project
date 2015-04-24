@@ -14,11 +14,17 @@
 
 <body class="background">
     
+<ul class="skip-links">
+    <li><a href="#navigation">Skip to navigation</a></li>
+    <li><a href="#main">Skip to main content</a></li>
+    <li><a href="#footer">Skip to footer</a></li>
+</ul>
+    
  <div class="blue" id="top">
      <button class="collapse pad-0"></button>
  </div>
     
- <nav class="panel">
+ <nav class="panel" role="navigation" id="navigation">
     <ul class="nav">
         <li><a href="#info">Down the Rabbit Hole</a></li>
         <li><a href="#quotes">Through the looking Glass</a></li>
@@ -47,8 +53,9 @@
         <a href="#footer"><img src="img/arrow.svg" alt="down arrow"></a>
         </div>
       
-    </div> 
+    </div>
     
+<main role="main" id="main">
     <div class="grid" id="info">
         <div class="unit unit-s-1 text">
         <p>Alice's Adventures in Wonderland (commonly shortened to Alice in Wonderland) is an 1865 novel written by English author Charles Lutwidge Dodgson under the pseudonym Lewis Carroll. It tells of a girl named Alice falling through a rabbit hole into a fantasy world populated by peculiar, anthropomorphic creatures. The tale plays with logic, giving the story lasting popularity with adults as well as with children. It is considered to be one of the best examples of the literary nonsense genre. Its narrative course and structure, characters and imagery have been enormously influential in both popular culture and literature, especially in the fantasy genre.</p>
@@ -101,10 +108,10 @@ We're painting the roses red.
     </div>
 
 </div>
-    
+</main>   
     
     <div class="unit">  
-        <footer id="footer">
+        <footer role="footer" id="footer">
             <svg xmlns="http://www.w3.org/2000/svg" id="eyes" width="400" height="400" viewBox="0 0 400 400">
                 <g id="eye_2">
                     <g>

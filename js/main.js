@@ -44,3 +44,10 @@ $('.footer').localScroll();
 $('.top').localScroll();
 
 
+var $box = $('.box');
+
+$box.waypoint(function () {
+    $box.toggleClass('js-active');
+}, {offset: '65%'});
+
+

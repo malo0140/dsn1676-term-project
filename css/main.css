@@ -170,6 +170,11 @@ h2 {
     transition: all .50s linear;
 }
 
+.button a {
+    outline: none;
+    
+}
+
 .button:hover {
     background-color: #ffda72;
     cursor: pointer;
@@ -262,7 +267,6 @@ h2 {
 .fadein {
     height: 50px;
     width: 100%;
-    background-color: #3958A7;
     border: none;
     cursor: pointer;  
 }
@@ -321,20 +325,18 @@ h2 {
 
 button {
    color: white;
+    outline: none;
 }
 
 .background {
     background-color: black;
 }
 
-#eyes {
-   align-content: center;  
-}
-
-#box {   
-    -webkit-animation: blink 500ms linear alternate infinite;
-    animation: blink 500ms linear alternate infinite;
+#box { 
+    opacity: 0;
     
+    -webkit-animation: blink 500ms linear alternate infinite;
+    animation: blink 500ms linear alternate infinite;  
 }
 
 @-webkit-keyframes blink {
@@ -360,6 +362,10 @@ button {
     
 }
 
+.js-active #box {
+    opacity: 1;
+}
+
 .skip-links {
     margin: 0;
     padding: 0;
@@ -377,7 +383,7 @@ button {
 }
 
 a:focus {
-    outline: 3px solid #00bff3;
+    outline: 3px solid;
 }
 
 .skip-links a:focus {
@@ -387,4 +393,16 @@ a:focus {
 a:hover,
 a:active {
     outline: none;
+}
+
+.top {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Futura, sans-serif;   
+}
+
+.top a {
+    list-style-type: none;
+    color: white;
 }

@@ -332,41 +332,17 @@ button {
     background-color: black;
 }
 
-#box { 
-    opacity: 0;
-    
-    -webkit-animation: blink 500ms linear alternate infinite;
-    animation: blink 500ms linear alternate infinite;  
-}
-
-@-webkit-keyframes blink {
-    
-    0% {
-       transform: translateY(-80px);
-    }
-    
-    100% {
-        transform: translateY(20px);
-    }
+.bottle-in-water {
+    text-align: center;
     
 }
 
-@keyframes blink {
-    0% {
-       transform: translateY(-80px);
-    }
-    
-    100% {
-        transform: translateY(20px);
-    }
-    
-}
-
-.js-active #box {
-    opacity: 1;
+#bottle-in-water {
+    width: 100em;
 }
 
 .skip-links {
+    background-color: blue;
     margin: 0;
     padding: 0;
     list-style-type: none;

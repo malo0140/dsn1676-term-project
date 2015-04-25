@@ -43,11 +43,10 @@ $('.footer').localScroll();
 
 $('.top').localScroll();
 
+var $alice = $('.alice-bottle');
 
-var $box = $('.box');
-
-$box.waypoint(function () {
-    $box.toggleClass('js-active');
-}, {offset: '65%'});
+$alice.on('click', function () {
+    $alice.toggleClass('js-active');
+}
 
 

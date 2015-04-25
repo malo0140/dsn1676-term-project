@@ -43,11 +43,12 @@ $('.footer').localScroll();
 
 $('.top').localScroll();
 
-var $bottlealice = $('.bottle-alice');
+var $dissapear = $('.dissapear');
 
-$bottlealice.waypoint( function (direction) {
+$dissapear.waypoint( function (direction) {
     if (direction == 'down') {
-    $bottlealice.addClass('.js-transparent-alice');
+    $dissapear.addClass('.js-transparent-alice');
     } else { 
-    $bottlealice.removeClass('.js-transparent-alice');
-}, { offset: '50%' });
+    $dissapear.removeClass('.js-transparent-alice');
+    }
+}, { offset: '65%' });

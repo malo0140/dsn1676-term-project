@@ -373,14 +373,16 @@ a:active {
 }
 
 .bottle-in-water {
-    text-align: center;   
+    text-align: center;
+    position: relative;
 }
 
-#bottlealice {
+#dissapear {
     opacity: 0;
+    -webkit-transition: all 20ms linear;
     transition: all 20ms linear;
 }
 
-.js-transparent-alice #bottlealice {
+.js-dissapear #dissapear {
     opacity: 1;
 }

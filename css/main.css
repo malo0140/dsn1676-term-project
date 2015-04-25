@@ -379,10 +379,20 @@ a:active {
 
 #dissapear {
     opacity: 0;
-    -webkit-transition: all 20ms linear;
-    transition: all 20ms linear;
+    animation: 2s dissapear linear;
 }
 
-.js-dissapear #dissapear {
-    opacity: 1;
+@keyframes dissapear {
+   
+    0% {
+        opacity: 0; 
+    }
+    
+    50% {
+        opacity: 1;
+    }
+    
+  100% {
+        opacity: 0;
+    }
 }

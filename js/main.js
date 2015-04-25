@@ -45,10 +45,6 @@ $('.top').localScroll();
 
 var $dissapear = $('.dissapear');
 
-$dissapear.waypoint( function (direction) {
-    if (direction == 'down') {
-    $dissapear.addClass('.js-transparent-alice');
-    } else { 
-    $dissapear.removeClass('.js-transparent-alice');
-    }
-}, { offset: '65%' });
+$dissapear.waypoint(function () {
+    console.log('psdvoniiwnsidn');
+});

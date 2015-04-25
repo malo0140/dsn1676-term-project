@@ -29,12 +29,10 @@ $BtnFadeIn.on('click', function () {
 
 $btnFadeText.on('click', function () {
     $knob.toggleClass('js-fadetext');
-    
 });
 
 $btnShowHide.on('click', function () {
-    $cat.toggleClass('js-showhide');
-    
+    $cat.toggleClass('js-showhide');  
 });
 
 $('.nav').localScroll();
@@ -43,8 +41,9 @@ $('.footer').localScroll();
 
 $('.top').localScroll();
 
-var $dissapear = $('.dissapear');
+var $bottleInwater = $('.bottle-in-water');
 
-$dissapear.waypoint(function () {
-    console.log('psdvoniiwnsidn');
-});
+$bottleInwater.waypoint(function () {
+    $bottleInwater.toggleClass('js-dissapear');
+    }, {offset: '65%'});
+

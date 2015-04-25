@@ -332,24 +332,6 @@ button {
     background-color: black;
 }
 
-.bottle-in-water {
-    text-align: center;
-    
-}
-
-#bottle-in-water {
-    width: 100em;
-}
-
-#alice {
-    opacity: 0;
-     transition: all 1s linear;
-}
-
-.js-active #alice {
-    opacity: 1   
-}
-
 .skip-links {
     background-color: blue;
     margin: 0;
@@ -367,8 +349,6 @@ button {
     color: white;
     font-family: Futura, sans-serif;
 }
-
-
 
 .skip-links a:focus {
     top: 0;
@@ -390,4 +370,17 @@ a:active {
 .top a {
     list-style-type: none;
     color: white;
+}
+
+.bottle-in-water {
+    text-align: center;   
+}
+
+#bottlealice {
+    opacity: 0;
+    transition: all 20ms linear;
+}
+
+.js-transparent-alice #bottlealice {
+    opacity: 1;
 }

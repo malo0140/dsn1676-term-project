@@ -43,10 +43,11 @@ $('.footer').localScroll();
 
 $('.top').localScroll();
 
-var $alice = $('.alice-bottle');
+var $bottlealice = $('.bottle-alice');
 
-$alice.on('click', function () {
-    $alice.toggleClass('js-active');
-}
-
-
+$bottlealice.waypoint( function (direction) {
+    if (direction == 'down') {
+    $bottlealice.addClass('.js-transparent-alice');
+    } else { 
+    $bottlealice.removeClass('.js-transparent-alice');
+}, { offset: '50%' });

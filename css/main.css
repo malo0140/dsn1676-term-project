@@ -377,11 +377,9 @@ a:active {
 }
 
 #dissapear {
-    -webkit-transition: all 2s linear;
-    transition: all 2s linear;
     opacity: 0;
 }
 
-.js-dissapear {
+.js-dissapear #dissapear {
     opacity: 1;
 }

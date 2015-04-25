@@ -45,5 +45,5 @@ var $bottleInwater = $('.bottle-in-water');
 
 $bottleInwater.waypoint(function () {
     $bottleInwater.toggleClass('js-dissapear');
-    }, {offset: '20%'});
+    }, {offset: '50%'});
 

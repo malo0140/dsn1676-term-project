@@ -387,7 +387,7 @@ button {
 
 .skip-links a:focus {
     top: 0;
-    outline: 1px solid black;
+    outline: 1px solid white;
 }
 
 a:hover,
